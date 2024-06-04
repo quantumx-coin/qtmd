@@ -7,7 +7,7 @@ package addressmanager
 import (
 	"net"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
 )
 
 var (

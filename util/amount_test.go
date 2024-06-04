@@ -8,9 +8,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
 
-	. "github.com/Hoosat-Oy/HTND/util"
+	. "github.com/quantumx-coin/qtmd/util"
 )
 
 func TestAmountCreation(t *testing.T) {

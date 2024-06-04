@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/rpc"
-	"github.com/Hoosat-Oy/HTND/util/profiling"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/rpc"
+	"github.com/quantumx-coin/qtmd/util/profiling"
 )
 
 var timeout = 30 * time.Second

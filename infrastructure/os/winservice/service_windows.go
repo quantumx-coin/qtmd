@@ -7,9 +7,9 @@ package winservice
 import (
 	"fmt"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/signal"
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/signal"
+	"github.com/quantumx-coin/qtmd/version"
 	"github.com/btcsuite/winsvc/eventlog"
 	"github.com/btcsuite/winsvc/svc"
 )

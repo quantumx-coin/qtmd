@@ -1,8 +1,8 @@
 package rpcclient
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	routerpkg "github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	routerpkg "github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
 )
 
 type rpcRouter struct {

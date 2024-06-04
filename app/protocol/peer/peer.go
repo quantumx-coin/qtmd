@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/id"
-	mathUtil "github.com/Hoosat-Oy/HTND/util/math"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/id"
+	mathUtil "github.com/quantumx-coin/qtmd/util/math"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 )
 
 // Peer holds data about a peer.

@@ -4,8 +4,8 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

@@ -3,10 +3,10 @@ package blockprocessor
 import (
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/processes/blockprocessor/blocklogger"
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/processes/blockprocessor/blocklogger"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 // blockProcessor is responsible for processing incoming blocks

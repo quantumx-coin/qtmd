@@ -1,4 +1,4 @@
-module github.com/Hoosat-Oy/HTND
+module github.com/quantumx-coin/qtmd
 
 go 1.18
 

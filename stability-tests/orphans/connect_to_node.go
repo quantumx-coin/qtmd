@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/standalone"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/standalone"
 )
 
 func connectToNode() *standalone.Routes {

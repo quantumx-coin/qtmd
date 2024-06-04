@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
 )
 
 func reachablityIntervalToDBReachablityInterval(reachabilityInterval *model.ReachabilityInterval) *DbReachabilityInterval {

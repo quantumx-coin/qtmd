@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
 )
 
 func TestCalcDeflationaryPeriodBlockSubsidy(t *testing.T) {

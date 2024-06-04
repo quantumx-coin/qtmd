@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensusreference"
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
-	"github.com/Hoosat-Oy/HTND/domain/miningmanager/blocktemplatebuilder"
-	mempoolpkg "github.com/Hoosat-Oy/HTND/domain/miningmanager/mempool"
+	"github.com/quantumx-coin/qtmd/domain/consensusreference"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/domain/miningmanager/blocktemplatebuilder"
+	mempoolpkg "github.com/quantumx-coin/qtmd/domain/miningmanager/mempool"
 )
 
 // Factory instantiates new mining managers

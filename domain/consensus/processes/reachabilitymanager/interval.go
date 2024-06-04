@@ -3,7 +3,7 @@ package reachabilitymanager
 import (
 	"math"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
 	"github.com/pkg/errors"
 )
 

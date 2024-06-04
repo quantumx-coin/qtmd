@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/version"
 )
 
 func (s *server) GetVersion(_ context.Context, _ *pb.GetVersionRequest) (*pb.GetVersionResponse, error) {

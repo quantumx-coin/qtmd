@@ -4,18 +4,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 
-	"github.com/Hoosat-Oy/HTND/domain"
+	"github.com/quantumx-coin/qtmd/domain"
 
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/addressmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/connmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/id"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/addressmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/connmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/id"
 )
 
 // OnNewBlockTemplateHandler is a handler function that's triggered when a new block template is available

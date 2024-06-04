@@ -7,10 +7,10 @@ package appmessage
 import (
 	"math/big"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 )
 
 // BaseBlockHeaderPayload is the base number of bytes a block header can be,

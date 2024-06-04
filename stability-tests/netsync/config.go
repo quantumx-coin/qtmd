@@ -3,8 +3,8 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
 
 	"github.com/jessevdk/go-flags"
 )

@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/prefixmanager/prefix"
+	"github.com/quantumx-coin/qtmd/domain/prefixmanager/prefix"
 
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database/ldb"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database/ldb"
 )
 
 func TestNewConsensus(t *testing.T) {

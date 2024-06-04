@@ -3,10 +3,10 @@ package utxoindex
 import (
 	"sync"
 
-	"github.com/Hoosat-Oy/HTND/domain"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/domain"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 // UTXOIndex maintains an index between transaction scriptPublicKeys

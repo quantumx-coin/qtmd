@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/testapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/testapi"
 )
 
 type testGhostDAGSorter struct {

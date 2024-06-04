@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 )
 
 // DbHashToDomainHash converts a DbHash to a DomainHash

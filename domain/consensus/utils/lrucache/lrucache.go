@@ -1,7 +1,7 @@
 package lrucache
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 )
 
 // LRUCache is a least-recently-used cache for any type

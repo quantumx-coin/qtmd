@@ -3,12 +3,12 @@ package daawindowstore
 import (
 	"encoding/binary"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/database/serialization"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/lrucachehashpairtoblockghostdagdatahashpair"
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
-	"github.com/Hoosat-Oy/HTND/util/staging"
+	"github.com/quantumx-coin/qtmd/domain/consensus/database/serialization"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/lrucachehashpairtoblockghostdagdatahashpair"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/util/staging"
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 )

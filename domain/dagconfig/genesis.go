@@ -7,10 +7,10 @@ package dagconfig
 import (
 	"math/big"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/blockheader"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/subnetworks"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/transactionhelper"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/blockheader"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/subnetworks"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/transactionhelper"
 	"github.com/kaspanet/go-muhash"
 )
 

@@ -3,15 +3,15 @@ package ping
 import (
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/protocol/common"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flowcontext"
+	"github.com/quantumx-coin/qtmd/app/protocol/common"
+	"github.com/quantumx-coin/qtmd/app/protocol/flowcontext"
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	"github.com/Hoosat-Oy/HTND/app/protocol/protocolerrors"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
-	"github.com/Hoosat-Oy/HTND/util/random"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	"github.com/quantumx-coin/qtmd/app/protocol/protocolerrors"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/util/random"
 )
 
 // SendPingsContext is the interface for the context needed for the SendPings flow.

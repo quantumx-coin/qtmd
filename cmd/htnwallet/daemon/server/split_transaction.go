@@ -4,14 +4,14 @@ import (
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet/serialization"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/utxo"
-	"github.com/Hoosat-Oy/HTND/domain/miningmanager/mempool"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet/serialization"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/utxo"
+	"github.com/quantumx-coin/qtmd/domain/miningmanager/mempool"
+	"github.com/quantumx-coin/qtmd/util"
 )
 
 // maybeAutoCompoundTransaction checks if a transaction's mass is higher that what is allowed for a standard

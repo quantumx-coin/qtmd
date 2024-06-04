@@ -3,13 +3,13 @@ package coinbasemanager
 import (
 	"math"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/hashset"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/subnetworks"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/transactionhelper"
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/hashset"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/subnetworks"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/transactionhelper"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

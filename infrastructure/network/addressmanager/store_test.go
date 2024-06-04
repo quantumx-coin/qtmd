@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 )
 
 func TestAddressKeySerialization(t *testing.T) {

@@ -4,15 +4,15 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/utxo"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/utxo"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/transactionid"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/txscript"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/transactionid"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/txscript"
+	"github.com/quantumx-coin/qtmd/util"
 	"github.com/kaspanet/go-secp256k1"
 )
 

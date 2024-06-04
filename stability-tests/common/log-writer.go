@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 // LogWriter writes to the given log with the given log level and prefix

@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/rpcclient"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 )
 

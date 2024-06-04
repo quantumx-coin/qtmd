@@ -5,16 +5,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/testutils"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/txscript"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/utxo"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/testutils"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/txscript"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/utxo"
+	"github.com/quantumx-coin/qtmd/util"
 )
 
 func forSchnorrAndECDSA(t *testing.T, testFunc func(t *testing.T, ecdsa bool)) {

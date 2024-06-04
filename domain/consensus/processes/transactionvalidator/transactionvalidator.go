@@ -1,10 +1,10 @@
 package transactionvalidator
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/txscript"
-	"github.com/Hoosat-Oy/HTND/util/txmass"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/txscript"
+	"github.com/quantumx-coin/qtmd/util/txmass"
 )
 
 const sigCacheSize = 10_000

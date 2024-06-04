@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 const exitHandlerTimeout = 5 * time.Second

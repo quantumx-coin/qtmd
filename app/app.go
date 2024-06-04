@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database/ldb"
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/execenv"
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/limits"
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/signal"
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/winservice"
-	"github.com/Hoosat-Oy/HTND/util/panics"
-	"github.com/Hoosat-Oy/HTND/util/profiling"
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database/ldb"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/execenv"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/limits"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/signal"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/winservice"
+	"github.com/quantumx-coin/qtmd/util/panics"
+	"github.com/quantumx-coin/qtmd/util/profiling"
+	"github.com/quantumx-coin/qtmd/version"
 )
 
 const (

@@ -1,10 +1,10 @@
 package reachabilitymanager
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/database"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/reachabilitydata"
+	"github.com/quantumx-coin/qtmd/domain/consensus/database"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/reachabilitydata"
 	"github.com/pkg/errors"
 )
 

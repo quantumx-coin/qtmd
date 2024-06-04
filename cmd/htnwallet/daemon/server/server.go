@@ -8,19 +8,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/version"
 
-	"github.com/Hoosat-Oy/HTND/util/txmass"
+	"github.com/quantumx-coin/qtmd/util/txmass"
 
-	"github.com/Hoosat-Oy/HTND/util/profiling"
+	"github.com/quantumx-coin/qtmd/util/profiling"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/keys"
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/rpcclient"
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/signal"
-	"github.com/Hoosat-Oy/HTND/util/panics"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/keys"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/rpcclient"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/signal"
+	"github.com/quantumx-coin/qtmd/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

@@ -5,15 +5,15 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/testapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/testapi"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/ruleerrors"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/blockheader"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/testutils"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/ruleerrors"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/blockheader"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/testutils"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 	"github.com/pkg/errors"
 )
 

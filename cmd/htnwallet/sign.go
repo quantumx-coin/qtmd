@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/keys"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/keys"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
 	"github.com/pkg/errors"
 )
 

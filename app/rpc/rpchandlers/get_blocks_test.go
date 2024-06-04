@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/app/rpc/rpccontext"
-	"github.com/Hoosat-Oy/HTND/app/rpc/rpchandlers"
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/testapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/hashes"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/testutils"
-	"github.com/Hoosat-Oy/HTND/domain/miningmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/rpc/rpccontext"
+	"github.com/quantumx-coin/qtmd/app/rpc/rpchandlers"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/testapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/hashes"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/testutils"
+	"github.com/quantumx-coin/qtmd/domain/miningmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
 )
 
 type fakeDomain struct {

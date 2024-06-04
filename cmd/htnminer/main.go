@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/util"
 
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/signal"
-	"github.com/Hoosat-Oy/HTND/util/panics"
-	"github.com/Hoosat-Oy/HTND/util/profiling"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/signal"
+	"github.com/quantumx-coin/qtmd/util/panics"
+	"github.com/quantumx-coin/qtmd/util/profiling"
 )
 
 func main() {

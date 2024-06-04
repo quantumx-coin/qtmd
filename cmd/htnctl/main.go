@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/version"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/server/grpcserver/protowire"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/rpcclient/grpcclient"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/rpcclient/grpcclient"
 )
 
 func main() {

@@ -3,10 +3,10 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/rpc"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/rpc"
 	"github.com/jessevdk/go-flags"
 )
 

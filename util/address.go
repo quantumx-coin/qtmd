@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/Hoosat-Oy/HTND/util/bech32"
+	"github.com/quantumx-coin/qtmd/util/bech32"
 )
 
 var (

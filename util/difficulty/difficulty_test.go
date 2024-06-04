@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/testutils"
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
-	"github.com/Hoosat-Oy/HTND/util/difficulty"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/testutils"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/util/difficulty"
 )
 
 func TestGetHashrateString(t *testing.T) {

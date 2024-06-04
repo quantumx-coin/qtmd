@@ -3,13 +3,13 @@ package mempool
 import (
 	"fmt"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/utxo"
-	"github.com/Hoosat-Oy/HTND/domain/miningmanager/mempool/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/utxo"
+	"github.com/quantumx-coin/qtmd/domain/miningmanager/mempool/model"
 )
 
 type mempoolUTXOSet struct {

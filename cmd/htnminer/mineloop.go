@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/version"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/cmd/htnminer/templatemanager"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/pow"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/cmd/htnminer/templatemanager"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/pow"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/util"
 	"github.com/pkg/errors"
 )
 

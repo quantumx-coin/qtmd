@@ -1,7 +1,7 @@
 package difficultymanager
 
 import (
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 var log = logger.RegisterSubSystem("DAA")

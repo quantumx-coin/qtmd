@@ -4,17 +4,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/util/difficulty"
+	"github.com/quantumx-coin/qtmd/util/difficulty"
 
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/testutils"
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/testutils"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
 )
 
 func TestDifficulty(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/Hoosat-Oy/HTND/app"
+	"github.com/quantumx-coin/qtmd/app"
 )
 
 func main() {

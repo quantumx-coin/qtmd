@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
 )
 
 func Test16IncomingConnections(t *testing.T) {

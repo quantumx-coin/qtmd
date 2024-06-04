@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/app/protocol/common"
-	"github.com/Hoosat-Oy/HTND/app/protocol/protocolerrors"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/ruleerrors"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/protocol/common"
+	"github.com/quantumx-coin/qtmd/app/protocol/protocolerrors"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/ruleerrors"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
 	"github.com/pkg/errors"
 )
 

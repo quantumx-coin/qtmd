@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
 	"github.com/pkg/errors"
 )
 

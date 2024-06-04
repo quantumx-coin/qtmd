@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	"github.com/Hoosat-Oy/HTND/util/math"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/util/math"
 
-	"github.com/Hoosat-Oy/HTND/util/difficulty"
+	"github.com/quantumx-coin/qtmd/util/difficulty"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 )
 
 // DifficultyManager provides a method to resolve the

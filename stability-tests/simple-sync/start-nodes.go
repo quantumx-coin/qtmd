@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/util/panics"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/util/panics"
 	"github.com/pkg/errors"
 )
 

@@ -6,14 +6,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/blockheader"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/hashes"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/utxo"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/blockheader"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/hashes"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/utxo"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/subnetworks"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/transactionid"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/subnetworks"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/transactionid"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 )
 
 // DomainBlockToMsgBlock converts an externalapi.DomainBlock to MsgBlock

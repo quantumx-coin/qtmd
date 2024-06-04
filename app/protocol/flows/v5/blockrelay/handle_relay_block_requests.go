@@ -1,11 +1,11 @@
 package blockrelay
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	"github.com/Hoosat-Oy/HTND/app/protocol/protocolerrors"
-	"github.com/Hoosat-Oy/HTND/domain"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	"github.com/quantumx-coin/qtmd/app/protocol/protocolerrors"
+	"github.com/quantumx-coin/qtmd/domain"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

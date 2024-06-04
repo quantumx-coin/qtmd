@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/rpc"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/rpc"
+	"github.com/quantumx-coin/qtmd/util"
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 )

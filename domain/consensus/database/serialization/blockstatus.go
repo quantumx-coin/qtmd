@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 )
 
 // DomainBlockStatusToDbBlockStatus converts model.BlockStatus to DbBlockStatus

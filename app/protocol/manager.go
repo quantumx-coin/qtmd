@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Hoosat-Oy/HTND/app/protocol/common"
+	"github.com/quantumx-coin/qtmd/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/domain"
+	"github.com/quantumx-coin/qtmd/domain"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 
-	"github.com/Hoosat-Oy/HTND/app/protocol/flowcontext"
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/addressmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/connmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter"
+	"github.com/quantumx-coin/qtmd/app/protocol/flowcontext"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/addressmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/connmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

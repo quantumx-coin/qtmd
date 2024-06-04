@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/protocol/protocolerrors"
+	"github.com/quantumx-coin/qtmd/app/protocol/protocolerrors"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
 	"github.com/pkg/errors"
 )
 

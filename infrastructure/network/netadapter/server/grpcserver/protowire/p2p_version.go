@@ -1,9 +1,9 @@
 package protowire
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/id"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/id"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 	"github.com/pkg/errors"
 )
 

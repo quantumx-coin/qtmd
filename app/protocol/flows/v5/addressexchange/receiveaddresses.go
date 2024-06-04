@@ -1,12 +1,12 @@
 package addressexchange
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/app/protocol/common"
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	"github.com/Hoosat-Oy/HTND/app/protocol/protocolerrors"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/addressmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/protocol/common"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	"github.com/quantumx-coin/qtmd/app/protocol/protocolerrors"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/addressmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
 )
 
 // ReceiveAddressesContext is the interface for the context needed for the ReceiveAddresses flow.

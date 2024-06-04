@@ -3,11 +3,11 @@ package libhtnwallet
 import (
 	"encoding/hex"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/transactionid"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/utxo"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/transactionid"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/utxo"
 )
 
 // HoosatwalletdUTXOsTolibhtnwalletUTXOs converts a  []*pb.UtxosByAddressesEntry to a []*libhtnwallet.UTXO

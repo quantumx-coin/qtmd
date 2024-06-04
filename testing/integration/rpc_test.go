@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/rpcclient"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/rpcclient"
 )
 
 const rpcTimeout = 10 * time.Second

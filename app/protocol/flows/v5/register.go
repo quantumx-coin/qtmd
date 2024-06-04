@@ -1,16 +1,16 @@
 package v5
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/app/protocol/common"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flowcontext"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flows/v5/addressexchange"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flows/v5/blockrelay"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flows/v5/ping"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flows/v5/rejects"
-	"github.com/Hoosat-Oy/HTND/app/protocol/flows/v5/transactionrelay"
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	routerpkg "github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/protocol/common"
+	"github.com/quantumx-coin/qtmd/app/protocol/flowcontext"
+	"github.com/quantumx-coin/qtmd/app/protocol/flows/v5/addressexchange"
+	"github.com/quantumx-coin/qtmd/app/protocol/flows/v5/blockrelay"
+	"github.com/quantumx-coin/qtmd/app/protocol/flows/v5/ping"
+	"github.com/quantumx-coin/qtmd/app/protocol/flows/v5/rejects"
+	"github.com/quantumx-coin/qtmd/app/protocol/flows/v5/transactionrelay"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	routerpkg "github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
 )
 
 type protocolManager interface {

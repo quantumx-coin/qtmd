@@ -3,11 +3,11 @@ package mempool
 import (
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
 
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/util"
 
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
 )
 
 const (

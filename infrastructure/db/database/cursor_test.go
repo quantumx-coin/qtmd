@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
 )
 
 func prepareCursorForTest(t *testing.T, db database.Database, testName string) database.Cursor {

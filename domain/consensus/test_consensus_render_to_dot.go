@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
 )
 
 // RenderDAGToDot is a helper function for debugging tests.

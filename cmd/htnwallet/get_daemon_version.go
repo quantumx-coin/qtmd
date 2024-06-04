@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/client"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/client"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
 )
 
 func getDaemonVersion(conf *getDaemonVersionConfig) error {

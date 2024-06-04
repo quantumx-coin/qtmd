@@ -1,11 +1,11 @@
 package ghostdagdatastore
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus/database/serialization"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/lrucacheghostdagdata"
-	"github.com/Hoosat-Oy/HTND/util/staging"
+	"github.com/quantumx-coin/qtmd/domain/consensus/database/serialization"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/lrucacheghostdagdata"
+	"github.com/quantumx-coin/qtmd/util/staging"
 	"github.com/golang/protobuf/proto"
 )
 

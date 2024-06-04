@@ -11,15 +11,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/mining"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/mining"
+	"github.com/quantumx-coin/qtmd/util"
 	"github.com/kaspanet/go-secp256k1"
 
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/rpc"
-	"github.com/Hoosat-Oy/HTND/util/panics"
-	"github.com/Hoosat-Oy/HTND/util/profiling"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/rpc"
+	"github.com/quantumx-coin/qtmd/util/panics"
+	"github.com/quantumx-coin/qtmd/util/profiling"
 	"github.com/pkg/errors"
 )
 

@@ -1,8 +1,8 @@
 package transactionrelay
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
 )
 
 type handleRequestedTransactionsFlow struct {

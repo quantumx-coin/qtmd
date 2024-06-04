@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
 )
 
 type balancesType struct{ available, pending uint64 }

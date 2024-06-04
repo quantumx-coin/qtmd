@@ -27,8 +27,8 @@ variable (either directly, or hidden in a library call).
 		"fmt"
 		"log"
 
-		"github.com/Hoosat-Oy/HTND/util"
-		"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+		"github.com/quantumx-coin/qtmd/util"
+		"github.com/quantumx-coin/qtmd/domain/dagconfig"
 	)
 
 	var testnet = flag.Bool("testnet", false, "operate on the testnet Hoosat network")

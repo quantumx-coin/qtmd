@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
 	"github.com/pkg/errors"
 )
 

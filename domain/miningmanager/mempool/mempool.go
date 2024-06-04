@@ -3,15 +3,15 @@ package mempool
 import (
 	"sync"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/ruleerrors"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/consensushashing"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/ruleerrors"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/consensushashing"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensusreference"
+	"github.com/quantumx-coin/qtmd/domain/consensusreference"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	miningmanagermodel "github.com/Hoosat-Oy/HTND/domain/miningmanager/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	miningmanagermodel "github.com/quantumx-coin/qtmd/domain/miningmanager/model"
 )
 
 type mempool struct {

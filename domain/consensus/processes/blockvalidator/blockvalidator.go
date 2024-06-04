@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/util/txmass"
+	"github.com/quantumx-coin/qtmd/util/txmass"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/util/difficulty"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/util/difficulty"
 )
 
 // blockValidator exposes a set of validation classes, after which

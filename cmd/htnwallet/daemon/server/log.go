@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/util"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	"github.com/Hoosat-Oy/HTND/util/panics"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/util/panics"
 )
 
 var (

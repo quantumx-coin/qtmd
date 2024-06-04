@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 const logLevel = logger.LevelWarn

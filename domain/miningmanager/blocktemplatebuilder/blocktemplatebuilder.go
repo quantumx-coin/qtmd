@@ -4,18 +4,18 @@ import (
 	"math"
 	"sort"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/processes/coinbasemanager"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/merkle"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/transactionhelper"
-	"github.com/Hoosat-Oy/HTND/domain/consensusreference"
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/domain/consensus/processes/coinbasemanager"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/merkle"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/transactionhelper"
+	"github.com/quantumx-coin/qtmd/domain/consensusreference"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 
-	"github.com/Hoosat-Oy/HTND/util/difficulty"
+	"github.com/quantumx-coin/qtmd/util/difficulty"
 
-	consensusexternalapi "github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/ruleerrors"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/subnetworks"
-	miningmanagerapi "github.com/Hoosat-Oy/HTND/domain/miningmanager/model"
+	consensusexternalapi "github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/ruleerrors"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/subnetworks"
+	miningmanagerapi "github.com/quantumx-coin/qtmd/domain/miningmanager/model"
 	"github.com/pkg/errors"
 )
 

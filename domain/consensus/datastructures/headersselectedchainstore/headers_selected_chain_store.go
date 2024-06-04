@@ -3,14 +3,14 @@ package headersselectedchainstore
 import (
 	"encoding/binary"
 
-	"github.com/Hoosat-Oy/HTND/util/staging"
+	"github.com/quantumx-coin/qtmd/util/staging"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/database"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/database/binaryserialization"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/lrucache"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/lrucacheuint64tohash"
+	"github.com/quantumx-coin/qtmd/domain/consensus/database"
+	"github.com/quantumx-coin/qtmd/domain/consensus/database/binaryserialization"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/lrucache"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/lrucacheuint64tohash"
 	"github.com/pkg/errors"
 )
 

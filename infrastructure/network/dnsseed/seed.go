@@ -12,15 +12,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	pb2 "github.com/Hoosat-Oy/HTND/infrastructure/network/dnsseed/pb"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	pb2 "github.com/quantumx-coin/qtmd/infrastructure/network/dnsseed/pb"
 	"google.golang.org/grpc"
 
-	"github.com/Hoosat-Oy/HTND/util/mstime"
+	"github.com/quantumx-coin/qtmd/util/mstime"
 
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
 )
 
 const (

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/standalone"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/util/panics"
-	"github.com/Hoosat-Oy/HTND/util/profiling"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/standalone"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/util/panics"
+	"github.com/quantumx-coin/qtmd/util/profiling"
 )
 
 func main() {

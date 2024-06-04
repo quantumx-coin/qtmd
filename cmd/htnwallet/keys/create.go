@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/utils"
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/utils"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 )

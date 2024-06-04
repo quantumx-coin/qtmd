@@ -1,8 +1,8 @@
 package handshake
 
 import (
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	"github.com/Hoosat-Oy/HTND/util/panics"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/util/panics"
 )
 
 var log = logger.RegisterSubSystem("PROT")

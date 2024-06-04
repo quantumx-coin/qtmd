@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/mine"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/rpc"
-	"github.com/Hoosat-Oy/HTND/util/panics"
-	"github.com/Hoosat-Oy/HTND/util/profiling"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/mine"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/rpc"
+	"github.com/quantumx-coin/qtmd/util/panics"
+	"github.com/quantumx-coin/qtmd/util/profiling"
 	"github.com/pkg/errors"
 )
 

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Hoosat-Oy/HTND/stability-tests/common"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/mine"
+	"github.com/quantumx-coin/qtmd/stability-tests/common"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/mine"
 	"github.com/pkg/errors"
 )
 

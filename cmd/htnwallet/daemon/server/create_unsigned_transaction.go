@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/util"
 	"github.com/pkg/errors"
 )
 

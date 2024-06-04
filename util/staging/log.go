@@ -1,7 +1,7 @@
 package staging
 
 import (
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
 )
 
 var utilLog = logger.RegisterSubSystem("UTIL")

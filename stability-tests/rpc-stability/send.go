@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/rpcclient/grpcclient"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/rpcclient/grpcclient"
 	"github.com/pkg/errors"
 )
 

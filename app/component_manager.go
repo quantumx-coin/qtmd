@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 
-	"github.com/Hoosat-Oy/HTND/domain/miningmanager/mempool"
+	"github.com/quantumx-coin/qtmd/domain/miningmanager/mempool"
 
-	"github.com/Hoosat-Oy/HTND/app/protocol"
-	"github.com/Hoosat-Oy/HTND/app/rpc"
-	"github.com/Hoosat-Oy/HTND/domain"
-	"github.com/Hoosat-Oy/HTND/domain/consensus"
-	"github.com/Hoosat-Oy/HTND/domain/utxoindex"
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
-	infrastructuredatabase "github.com/Hoosat-Oy/HTND/infrastructure/db/database"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/addressmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/connmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/id"
-	"github.com/Hoosat-Oy/HTND/util/panics"
+	"github.com/quantumx-coin/qtmd/app/protocol"
+	"github.com/quantumx-coin/qtmd/app/rpc"
+	"github.com/quantumx-coin/qtmd/domain"
+	"github.com/quantumx-coin/qtmd/domain/consensus"
+	"github.com/quantumx-coin/qtmd/domain/utxoindex"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
+	infrastructuredatabase "github.com/quantumx-coin/qtmd/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/addressmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/connmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/id"
+	"github.com/quantumx-coin/qtmd/util/panics"
 )
 
 // ComponentManager is a wrapper for all the htnd services

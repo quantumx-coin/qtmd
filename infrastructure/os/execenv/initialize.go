@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/os/limits"
+	"github.com/quantumx-coin/qtmd/infrastructure/os/limits"
 )
 
 // Initialize initializes the execution environment required to run htnd

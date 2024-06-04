@@ -1,13 +1,13 @@
 package libhtnwallet
 
 import (
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet/bip32"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet/serialization"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/constants"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/subnetworks"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/txscript"
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet/bip32"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet/serialization"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/constants"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/subnetworks"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/txscript"
+	"github.com/quantumx-coin/qtmd/util"
 	"github.com/pkg/errors"
 )
 

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/reachabilitydata"
+	"github.com/quantumx-coin/qtmd/domain/consensus/utils/reachabilitydata"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model"
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 
 	"github.com/pkg/errors"
 )

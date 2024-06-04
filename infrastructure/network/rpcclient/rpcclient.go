@@ -4,12 +4,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/infrastructure/logger"
-	routerpkg "github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/router"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/rpcclient/grpcclient"
-	"github.com/Hoosat-Oy/HTND/util/panics"
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/infrastructure/logger"
+	routerpkg "github.com/quantumx-coin/qtmd/infrastructure/network/netadapter/router"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/rpcclient/grpcclient"
+	"github.com/quantumx-coin/qtmd/util/panics"
+	"github.com/quantumx-coin/qtmd/version"
 	"github.com/pkg/errors"
 )
 

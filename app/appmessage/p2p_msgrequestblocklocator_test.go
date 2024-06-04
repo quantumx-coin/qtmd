@@ -3,7 +3,7 @@ package appmessage
 import (
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/quantumx-coin/qtmd/domain/consensus/model/externalapi"
 )
 
 // TestRequestBlockLocator tests the MsgRequestBlockLocator API.

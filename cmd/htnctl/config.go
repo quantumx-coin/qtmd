@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 )

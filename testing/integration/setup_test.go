@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Hoosat-Oy/HTND/domain/dagconfig"
+	"github.com/quantumx-coin/qtmd/domain/dagconfig"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database/ldb"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database/ldb"
 
-	"github.com/Hoosat-Oy/HTND/infrastructure/db/database"
+	"github.com/quantumx-coin/qtmd/infrastructure/db/database"
 
-	"github.com/Hoosat-Oy/HTND/app"
-	"github.com/Hoosat-Oy/HTND/infrastructure/config"
+	"github.com/quantumx-coin/qtmd/app"
+	"github.com/quantumx-coin/qtmd/infrastructure/config"
 )
 
 type appHarness struct {

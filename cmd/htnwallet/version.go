@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Hoosat-Oy/HTND/version"
+	"github.com/quantumx-coin/qtmd/version"
 	"os"
 	"path/filepath"
 	"strings"

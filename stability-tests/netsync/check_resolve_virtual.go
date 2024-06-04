@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/stability-tests/common/rpc"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/stability-tests/common/rpc"
 	"github.com/pkg/errors"
 )
 

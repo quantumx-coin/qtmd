@@ -5,9 +5,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Hoosat-Oy/HTND/util/difficulty"
+	"github.com/quantumx-coin/qtmd/util/difficulty"
 
-	"github.com/Hoosat-Oy/HTND/util"
+	"github.com/quantumx-coin/qtmd/util"
 )
 
 func ExampleAmount() {

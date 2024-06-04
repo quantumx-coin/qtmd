@@ -1,11 +1,11 @@
 package flowcontext
 
 import (
-	"github.com/Hoosat-Oy/HTND/app/appmessage"
-	"github.com/Hoosat-Oy/HTND/app/protocol/common"
-	peerpkg "github.com/Hoosat-Oy/HTND/app/protocol/peer"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/connmanager"
-	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter"
+	"github.com/quantumx-coin/qtmd/app/appmessage"
+	"github.com/quantumx-coin/qtmd/app/protocol/common"
+	peerpkg "github.com/quantumx-coin/qtmd/app/protocol/peer"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/connmanager"
+	"github.com/quantumx-coin/qtmd/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
 )
 

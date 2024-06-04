@@ -1,7 +1,7 @@
 package flowcontext
 
 import (
-	"github.com/Hoosat-Oy/HTND/domain"
+	"github.com/quantumx-coin/qtmd/domain"
 )
 
 // Domain returns the Domain object associated to the flow context.

@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/client"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/daemon/pb"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/keys"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/libhtnwallet"
-	"github.com/Hoosat-Oy/HTND/cmd/htnwallet/utils"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/client"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/daemon/pb"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/keys"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/libhtnwallet"
+	"github.com/quantumx-coin/qtmd/cmd/htnwallet/utils"
 	"github.com/pkg/errors"
 )
 
